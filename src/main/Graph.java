@@ -107,7 +107,7 @@ public class Graph {
                 }
             }
             
-            sb.append(String.format("[%d]", r.data));
+            sb.append(String.format("[%d]", r.data)); 
         }
 
         System.out.println(sb.toString());
